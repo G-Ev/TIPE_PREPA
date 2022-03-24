@@ -2,9 +2,11 @@ Idée principale :
 
   Faire des drones au service de la population : ils pourraient livrer (colis, nourriture, matériel en tout genre);
                                                                 effectuer des tâches difficiles (métiers en hauteur, sauvetage, sécurité, );
+                                                                effectuer des tâches ingrâtes ou lassantes (nettoyage, );
                                                                 ... ;
-
-
+                                                                
+Ces drones seraient alors rattachés/connectés à des antennes/stations mobiles et seraient presque totalement autonomes 
+(du moins totalement par rapport aux autres drones) : ils seraient gérés/commandés par un centre de contrôle autonome (pas d'opérateur humain, uniquement une IA).
 
 
 Idées concernant les drones :
@@ -13,20 +15,23 @@ Idées concernant les drones :
   -> Concerne la gestion des drones (que font-ils s'ils n'ont aucun ordre par le poste de controle ? Comment se repèrent-ils ? Comment savent-ils où sont les autres drones, si besoin ?)
   -> Où stocker les drones (stations mobiles comme des camions contenant la marchandise / stations immobiles où les colis seraient envoyés/stockés pour que les drones viennent les prendre ou juste s'y recharger et aillent prendre les colis au dépôt principal)
   -> S'interroger sur la nature du développement durable de ces moyens (camions/drones/stations/batteries/...)
-  -> 
+  -> S'intérroger sur la nécessité de la création de classe de drone, comme des spécialisations dans certains domaines pour répondre à des demandes précises dans certaines zones.
+  ->
 
 Liens avec l'info :
   -> la cartographie (map + deplacements)
   -> les différentes IA
-  -> la gestion des drones; du système en général
+  -> la gestion des drones; du système en général (systèmes embarqués et info. distribuée)
   -> simulations et programmation
   -> Optimalité des algos
+  ->
 
 Liens avec les maths :
   -> la cartographie
   -> théorie des graphes
-  -> prévisions mouvements
-  -> 
+  -> prévisions mouvements & de la durée de vie des batteries/laps de temps entre chaque recharge
+  -> probabilité que quelque chose ne se passe pas comme prévu (zones à risque (météo ?) ?) : que faire ?
+  ->
 
 Logiciels :
   -> Gazebo avec module ROS Hector (simulations) ?
@@ -52,8 +57,8 @@ Documentation :
 
 Mots-clefs :
 
--> Système embarqué / autonome
--> election leader - informatique distribuée
+-> Systèmes embarqués (les drônes ont des capacités très limités) / autonome
+-> election leader (pas forcément utile si on a une unité de commande centrale) - informatique distribuée (por répartir les tâches correctement, qui fait quoi et quand)
 -> 
 
 
