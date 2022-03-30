@@ -18,18 +18,23 @@ Idées concernant les drones :
   -> S'intérroger sur la nécessité de la création de classe de drone, comme des spécialisations dans certains domaines pour répondre à des demandes précises dans certaines zones.
   ->
 
-Liens avec l'info :
-  -> la cartographie (map + deplacements)
-  -> les différentes IA
-  -> la gestion des drones; du système en général (systèmes embarqués et info. distribuée)
-  -> simulations et programmation
-  -> Optimalité des algos
+Liens avec l'info :   FONDAMENTAL (points ci-dessous triés du plus important à traiter/utiliser au moins important)
+  -> la cartographie (map + deplacements) ;
+  -> la gestion des drones; du système en général (systèmes embarqués et info. distribuée) ;
+  -> simulations et programmation ;
+  
+  -> les différentes IA (ne pas aller trop loin) ;
+  
+  -> Optimalité des algos ;
   ->
 
-Liens avec les maths :
-  -> la cartographie
-  -> théorie des graphes
-  -> prévisions mouvements & de la durée de vie des batteries/laps de temps entre chaque recharge
+Liens avec les maths :  DETAIL : finitions (points ci-dessous triés du plus important à traiter/utiliser au moins important)
+  -> la cartographie ; 
+  
+  -> prévisions mouvements & de la durée de vie des batteries/laps de temps entre chaque recharge ;
+  -> exploitation des données statisques (les graphes ou autres histogrammes qu'on aura après les simulations, on les exploitera mathématiquement pour faciliter leur lecture) ;
+  
+  -> théorie des graphes ;
   -> probabilité que quelque chose ne se passe pas comme prévu (zones à risque (météo ?) ?) : que faire ?
   ->
 
@@ -59,5 +64,7 @@ Mots-clefs :
 
 -> Systèmes embarqués (les drônes ont des capacités très limités) / autonome
 -> election leader (pas forcément utile si on a une unité de commande centrale) - informatique distribuée (por répartir les tâches correctement, qui fait quoi et quand)
--> 
+-> backtracking (si on veut aller loin, pour savoir si les drones satisfont pleinement les objectifs voulus)
+
+-> (choses à trouver)
 
