@@ -5,16 +5,19 @@ Session du 16 Février 2022 : (2 heures)
   les villes).
   
   * Réflexions à propos des thèmes de maths et d'info et de physique à lier avec le sujet trouvé :
-    -> Maths : cartographie (graphes) ; temps de parcours (optimisation) ; écologie (durée de vie des batteries et laps de temps entre chaque recharge) ; prévision des
+ -> Maths : cartographie (graphes) ; temps de parcours (optimisation) ; écologie (durée de vie des batteries et laps de temps entre chaque recharge) ; prévision des
 mouvements (savoir si des drones ne vont pas suivre le chemin définis / avoir des obstacles).
-    -> Info : cartographie (graphes) ; algorithmes (pour gérer les drones, les déplacements, les choses à effectuer) ; IA (les drones seraient autonomes, une IA autonome
+ -> Info : cartographie (graphes) ; algorithmes (pour gérer les drones, les déplacements, les choses à effectuer) ; IA (les drones seraient autonomes, une IA autonome
 controlerait le tout et servirait d'unité centrale) ; prévisions (chaque drone aurait une liste de tâches à effectuer, ils ne doivent pas rentrer en collision mais ne
 savent pas la position des autres drones, ils doivent être optimisés pour que plusieurs drones ne soient pas affectés à une tâche faisable par un seul).
-    -> Physique : écologie ; forces s'exerçant sur le drone (lui permettant de décoller / se mouvoir comme on le souhaite ainsi que pour calculer la pousée/le couple
+ -> Physique : écologie ; forces s'exerçant sur le drone (lui permettant de décoller / se mouvoir comme on le souhaite ainsi que pour calculer la pousée/le couple
 moteur nécessaire pour qu'il puisse voler en transportant des objets -d'où différents types de drones-).
 Physique finalement abandonnée car son rôle dans le sujet n'a pas tant d'importance que les maths ou l'info.
 
   * Réflexions et mise en place de la plateforme CLoud à utiliser pour la gestion du projet.
+ -> GitHub / GitLab;
+ -> Monday.com;
+ -> Drive.
 
 
 Session du 23 Mars 2022 : (2 heures)
@@ -28,4 +31,16 @@ Session du 23 Mars 2022 : (2 heures)
 Session du 30 Mars 2022 : (quelques dizaines de minutes)
 
 
+
+
 Session du 6 Avril 2022 : (une demie-heure)
+  * Restriction des idées des possiblités de faire avec les drones pour restreindre les questions/sujets et algorithmes 
+ utilisables.
+ -> on va uniquement s'intéresser au côté 'livraison' pour le moment avec les drones contrôlés par une unité centrale mais
+on pourra voir ce que cela fait d'enlever cette unité centrale par la suite; voire même d'affecter les drones a d'autres
+tâches.
+ -> on aura donc à disposition plusieurs types de drones (pour les différents poids des colis) ainsi que plusieurs clients;
+ -> on commencera avec quelques clients, et un drone de chaque type pour pouvoir exploiter les données.
+ 
+  * Le logiciel de simulation prévu initialement n'est pas aussi efficace/pertinent que souhaité.
+ -> réflexion quant à faire des simulations directement via Python avec la bibliothèque pygame.
