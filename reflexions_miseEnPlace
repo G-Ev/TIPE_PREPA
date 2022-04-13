@@ -60,11 +60,19 @@ Documentation :
     -> ENSTA Bretagne (Logiciel de simulation) : https://www.ensta-bretagne.fr/jaulin/rapport2017_tillet.pdf
     -> INRIA (thèse sur un algo d'élection de leader - pas forcément très utile s'il y a une unité mère) : https://hal.inria.fr/hal-03471426/document
 
+  * Autres :
+    -> (cf telechargements) : Mémoire de Joyce GALLET exposant les utilisations des drones par Amazon & comment ils s'en servent.
+    -> Open Journals (présente les risques pour les postiers d'être dans un véhicule léger professionnellement parlant) : https://journals.openedition.org/pistes/5733
+    -> Open Journals (présente les processus de cadrage et de réalisation des tournées des facteurs) : https://journals.openedition.org/sdt/31517
+    -> 
+
+
 Mots-clefs :
 
 -> Systèmes embarqués (les drônes ont des capacités très limités) / autonome
 -> election leader (pas forcément utile si on a une unité de commande centrale) - informatique distribuée (por répartir les tâches correctement, qui fait quoi et quand)
 -> backtracking (si on veut aller loin, pour savoir si les drones satisfont pleinement les objectifs voulus)
+-> B2C pour distribuer des colis aux particuliers
 
 -> (choses à trouver)
 
