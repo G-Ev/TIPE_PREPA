@@ -1,0 +1,51 @@
+Précision du sujet :
+  * Contexte : On garde les drones et leur sujet de "transporter" des objets.
+  * Problématisation : On cherche le meilleur trajet (optimisation nb de personne pour le temps disponible -sachant que les drones doivent se recharger-) pour nos livraisons.
+  * Ce dont on dispose : 
+    i) une flotte de drones fonctionnelle
+    ii) un algo d'ordonnancement
+    iii) une base de données des clients (comportant leur adresse et ce qu'ils commandent -donc avec dimensions, poids, etc.)
+  * Sujet majeur : problème du voyageur de commmerce (NP-complet)
+  * Sujet mineur : Info distribuée (pour le fonctionnement de la flotte) et l'ordonnancement des commandes. On suppose ces deux sujets "réglés" mais pas optimisés.
+  * Disfférentiation des cas d'utilisation :
+    i) Commandes rapides (ex. : Domino's pizza)
+    ii) Commandes programmées (ex. : Amazon)
+    iii) Commandes ponctuelles et/ou prioritaires (-> service de livraison propre ou service public à la DHL ?)
+  * Idée d'ouverture : point fixe ou mobile (pour la base de drones)
+  *Idées de titres :
+    1) Pizzamazon
+    2) Ama-hut
+    3) La route des cartons (volants)
+    4) 
+
+
+
+
+
+- Logiciels utiles :
+  * Bibliothèque / module pygame de Python (pour des simulations)
+  *
+
+- Langage utilisé  :
+  i) C ou C++ (basique mais Axel n'y connait rien)
+  ii) Ocaml (en rapport avec le programme et très logique)
+  iii) Python (utile pour pygame et le code)
+
+
+- Notions informatiques :
+  * Le voyageur de commerce : problème NP-complet;
+  *
+
+
+- Documentation utile :
+  * Problème du voyageur (Wikipédia) : https://fr.wikipedia.org/wiki/Probl%C3%A8me_du_voyageur_de_commerce
+  * 
+
+
+- Documentation secondaire :
+  * Info distribuée (Wikipédia) : https://fr.wikipedia.org/wiki/Architecture_distribu%C3%A9e
+  * Info distribuée (Thèse d'Annie Vidard de 1999) : https://www.theses.fr/1999PA132032
+  *
+
+
+
