@@ -7,34 +7,34 @@ Précision du sujet :
     iii) une base de données des clients (comportant leur adresse et ce qu'ils commandent -donc avec dimensions, poids, etc.)
   * Sujet majeur : problème du voyageur de commmerce (NP-complet)
   * Sujet mineur : Info distribuée (pour le fonctionnement de la flotte) et l'ordonnancement des commandes. On suppose ces deux sujets "réglés" mais pas optimisés.
-  * Disfférentiation des cas d'utilisation :
+  * Différentiation des cas d'utilisation :
     i) Commandes rapides (ex. : Domino's pizza)
     ii) Commandes programmées (ex. : Amazon)
     iii) Commandes ponctuelles et/ou prioritaires (-> service de livraison propre ou service public à la DHL ?)
   * Idée d'ouverture : point fixe ou mobile (pour la base de drones)
-  *Idées de titres :
+  * Idées de titres :
     1) Pizzamazon
     2) Ama-hut
     3) La route des cartons (volants)
     4) 
-
+  * Déroulement du 
 
 
 
 
 - Logiciels utiles :
   * Bibliothèque / module pygame de Python (pour des simulations)
-  *
+  * 
 
-- Langage utilisé  :
+- Langage utilisé  : Python -> Plus simple pour le graphique / plus simple pour coder avec des classes / plus simple pour Axel
   i) C ou C++ (basique mais Axel n'y connait rien)
   ii) Ocaml (en rapport avec le programme et très logique)
-  iii) Python (utile pour pygame et le code)
+  iii) Python (utile pour pygame et le code) 
 
 
 - Notions informatiques :
   * Le voyageur de commerce : problème NP-complet;
-  *
+  * 
 
 
 - Documentation utile :
