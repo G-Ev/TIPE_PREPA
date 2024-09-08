@@ -5,4 +5,3 @@ Projet contenant tous les dossiers (programmes, simulations, textes et tableurs)
 Equipe/duo : - Axel Ringoot (@Absaratz); 
              - Evann Godard (@G-Ev).
 
-Le contenu, les idées et les avancées majeures seront par la suite publiées ici.
